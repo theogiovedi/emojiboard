@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 20px);
+  height: 90%;
+  max-width: 700px;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.emoji {
+  margin-right: 10px;
+  font-family: 'Noto Color Emoji';
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  max-width: 700px;
+}
+
+.size {
+  padding: 5px 0;
+  color: var(--fg);
+  opacity: 35%;
+}

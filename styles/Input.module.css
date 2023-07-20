@@ -1,0 +1,17 @@
+.input {
+  background-color: var(--bg);
+  color: var(--fg);
+  border: 2px solid var(--fg);
+  border-radius: 7px;
+  outline: none;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  font-size: 22px;
+  width: 100%;
+  font-family: 'Figtree', sans-serif;
+}
+
+.input::placeholder {
+  color: var(--fg);
+  opacity: 35%;
+}

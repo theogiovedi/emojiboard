@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=Noto+Color+Emoji&display=swap');
+
+:root {
+  --fg: #eeeeff;
+  --bg: #0a0812;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Figtree', sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
