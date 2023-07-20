@@ -1,5 +1,6 @@
 const nextConfig = {
-  output: 'export'
+  output: 'export',
+  basePath: 'emojiboard'
 }
  
 module.exports = nextConfig
