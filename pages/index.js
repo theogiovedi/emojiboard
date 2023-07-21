@@ -5,7 +5,7 @@ import Input from "../components/Input";
 import Results from "../components/Results";
 import Credits from "../components/Credits";
 
-const emojis = await fetch("/emojis.json")
+const emojis = await fetch("/emojiboard/emojis.json")
   .then((emojisFile) => emojisFile.json())
   .catch(() =>
     console.log("Error: Emojiboard could not load the emojis.json file")
@@ -61,7 +61,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Emojiboard</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/emojiboard/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
